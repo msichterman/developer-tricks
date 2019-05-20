@@ -1,61 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Developer Tricks</title>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <nav id="navbar">
-        <header>Developer Tricks</header>
-        <a href="#Introduction" class="nav-link">Introduction</a>
-        <a href="#HTML_Tricks" class="nav-link">HTML Tricks</a>
-        <a href="#CSS_Tricks" class="nav-link">CSS Tricks</a>
-        <a href="#JavaScript_Tricks" class="nav-link">JavaScript Tricks</a>
-        <a href="#Git_Tricks" class="nav-link">Git Tricks</a>
-        <a href="#Check_Out_My_Other_Projects!" class="nav-link">Check Out My Other Projects!</a>
+        <button id="open-button"><i class="fas fa-bars"></i></button>
+        <div class="navbar-content-off navbar-content" id="navbar-content">
+            <header>Developer Tricks</header>
+            <ul id="nav-links">
+                <a href="#Introduction" class="nav-link"><li>Introduction</li></a>
+                <a href="#HTML_Tricks" class="nav-link"><li>HTML Tricks</li></a>
+                <a href="#CSS_Tricks" class="nav-link"><li>CSS Tricks</li></a>
+                <a href="#JavaScript_Tricks" class="nav-link"><li>JavaScript Tricks</li></a>
+                <a href="#Git_Tricks" class="nav-link"><li>Git Tricks</li></a>
+                <a href="#Check_Out_My_Other_Projects!" class="nav-link"><li>Check Out My Other Projects!</li></a
+                >
+            </ul>
+        </div>
     </nav>
     <main id="main-doc">
+      <div id="main-container">
         <section class="main-section" id="Introduction">
-            <header>Introduction</header>
-            <p></p>
-            <code></code>
-            <li></li>
+          <header>Introduction</header>
+          <p></p>
+          <code></code>
+          <li></li>
         </section>
         <section class="main-section" id="HTML_Tricks">
-            <header>HTML Tricks</header>
-            <p></p>
-            <code></code>
-            <li></li>
+          <header>HTML Tricks</header>
+          <p></p>
+          <code></code>
+          <li></li>
         </section>
         <section class="main-section" id="CSS_Tricks">
-            <header>CSS Tricks</header>
-            <p></p>
-            <code></code>
-            <li></li>
+          <header>CSS Tricks</header>
+          <p></p>
+          <code></code>
+          <li></li>
         </section>
-        <section class="JavaScript_Tricks">
-            <header>JavaScript Tricks</header>
-            <p></p>
-            <code></code>
-            <li></li>
+        <section class="main-section" id="JavaScript_Tricks">
+          <header>JavaScript Tricks</header>
+          <p></p>
+          <code></code>
+          <li></li>
         </section>
         <section class="main-section" id="Git_Tricks">
-            <header>Git Tricks</header>
-            <p></p>
-            <li>I made a typo or forgot to include some important information in my commit message:</li>
+          <header>Git Tricks</header>
+          <p></p>
+          <div class="entry">
+            <li>
+              I made a typo or forgot to include some important information in
+              my commit message:
+            </li>
             <code>$ git commit --amend -m "New and correct message"</code>
             <li>I want to make additional changes to the commit itself:</li>
-            <code>$ git add another/changed/file.txt</code><br>
+            <code>$ git add another/changed/file.txt</code><br />
             <code>$ git commit --amend -m "message"</code>
+          </div>
         </section>
         <section class="main-section" id="Check_Out_My_Other_Projects!">
-            <header>Check Out My Other Projects!</header>
-            <p></p>
-            <code></code>
-            <li></li>
-        </section> 
+          <header>Check Out My Other Projects!</header>
+          <p></p>
+          <code></code>
+          <div class="entry">
+            <li class="top">
+              <a
+                href="https://msichterman.github.io/sicho-freelance/"
+                target="_blank"
+                >SICHO Freelance</a
+              >
+              - A "product page" site used to promote SICHO Web Freelance, which
+              is currently not being used commercially.
+            </li>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <div id="footer-links">
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <ul>
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/msichterman"
+              class="fab fa-github"
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://codepen.io/msichterman/"
+              class="fab fa-codepen"
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://twitter.com/mattsichterman?lang=en"
+              class="fab fa-twitter"
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/msichterman/"
+              class="fab fa-linkedin"
+            ></a>
+          </li>
+        </ul>
+        <span>© 2019 SICHO Freelance</span>
+      </footer>
     </main>
-</body>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
