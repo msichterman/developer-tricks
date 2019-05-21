@@ -20,6 +20,11 @@ a {
   font-style: italic;
 }
 
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+
 /* Navbar Properties */
 #open-button {
     position: fixed;
@@ -66,7 +71,6 @@ a {
 .navbar-content > header {
   font-size: 2em;
   font-weight: bolder;
-  font-style: italic;
   text-transform: uppercase;
   text-align: center;
   padding-bottom: 25px;
@@ -105,7 +109,7 @@ a {
 }
 
 .main-section {
-  padding: 50px;
+  padding: 50px 75px;
   background-color: #fff;
   border: 5px solid #000;
   border-radius: 25px;
