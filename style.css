@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -137,6 +136,10 @@ p {
 .entry code {
   border: 2px solid #eee;
   background-color: #eee;
+}
+
+.entry code.indent {
+  padding-left: 25px;
 }
 
 /*Footer Properties*/

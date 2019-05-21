@@ -20,12 +20,12 @@
         <div class="navbar-content-off" id="navbar-content">
             <header>Developer Tricks</header>
             <ul id="nav-links">
-                <a href="#Introduction" class="nav-link"><li>Introduction</li></a>
-                <a href="#HTML_Tricks" class="nav-link"><li>HTML Tricks</li></a>
-                <a href="#CSS_Tricks" class="nav-link"><li>CSS Tricks</li></a>
-                <a href="#JavaScript_Tricks" class="nav-link"><li>JavaScript Tricks</li></a>
-                <a href="#Git_Tricks" class="nav-link"><li>Git Tricks</li></a>
-                <a href="#Check_Out_My_Other_Projects!" class="nav-link"><li>Check Out My Other Projects!</li></a
+                <a href="#Introduction" id="introduction-link" class="nav-link"><li>Introduction</li></a>
+                <a href="#HTML_Tricks" id="html-tricks-link" class="nav-link"><li>HTML Tricks</li></a>
+                <a href="#CSS_Tricks" id="css-tricks-link" class="nav-link"><li>CSS Tricks</li></a>
+                <a href="#JavaScript_Tricks" id="javascript-tricks-link" class="nav-link"><li>JavaScript Tricks</li></a>
+                <a href="#Git_Tricks" id="git-tricks-link" class="nav-link"><li>Git Tricks</li></a>
+                <a href="#Check_Out_My_Other_Projects!" id="other-projects-link" class="nav-link"><li>Check Out My Other Projects!</li></a
                 >
             </ul>
         </div>
@@ -52,14 +52,38 @@
         <section class="main-section" id="CSS_Tricks">
           <header>CSS Tricks</header>
           <p></p>
-          <code></code>
-          <li></li>
+          <div class="entry">
+            <li>I want to style the scrollbar:</li>
+            <code>/* Width */</code><br>
+            <code>::-webkit-scrollbar {</code><br>
+            <code class="indent">width: 1em;</code><br>
+            <code class="indent">background: black;</code><br>
+            <code>}</code><br><br>
+
+            <code>/* Track */</code><br>
+            <code>::-webkit-scrollbar-track {</code><br>
+            <code class="indent">border-radius: 10px;</code><br>
+            <code class="indent">background: #eee;</code><br>
+            <code>}</code><br><br>
+
+            <code>/* Handle */</code><br>
+            <code>::-webkit-scrollbar-thumb {</code><br>
+            <code class="indent">background: black;</code><br>
+            <code class="indent">border-radius: 10px;</code><br>
+            <code class="indent">transition: background 3s ease-in-out;</code><br>
+            <code>}</code><br><br>
+
+            <code>/* Handle on Hover */</code><br>
+            <code>::-webkit-scrollbar-thumb:hover {</code><br>
+            <code class="indent">background: red;</code><br>
+            <code>}</code>
+          </div>
         </section>
         <section class="main-section" id="JavaScript_Tricks">
           <header>JavaScript Tricks</header>
           <p></p>
-          <code></code>
           <li></li>
+          <code></code>
         </section>
         <section class="main-section" id="Git_Tricks">
           <header>Git Tricks</header>
@@ -136,6 +160,8 @@
         <span>© 2019 SICHO Freelance</span>
       </footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <!---->script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">/script></--!>
   </body>
 </html>
