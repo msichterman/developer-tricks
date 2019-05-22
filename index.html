@@ -12,35 +12,75 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
-    <link rel="icon" type="image/png" href="img/SICHOLOGO.png"/>
+    <link rel="icon" type="image/png" href="img/SICHOLOGO.png" />
   </head>
   <body>
     <nav id="navbar">
-        <button id="open-button"><i class="fas fa-bars"></i></button>
-        <div class="navbar-content-off" id="navbar-content">
-            <header>Developer Tricks</header>
-            <ul id="nav-links">
-                <a href="#Introduction" id="introduction-link" class="nav-link"><li>Introduction</li></a>
-                <a href="#HTML_Tricks" id="html-tricks-link" class="nav-link"><li>HTML Tricks</li></a>
-                <a href="#CSS_Tricks" id="css-tricks-link" class="nav-link"><li>CSS Tricks</li></a>
-                <a href="#JavaScript_Tricks" id="javascript-tricks-link" class="nav-link"><li>JavaScript Tricks</li></a>
-                <a href="#Git_Tricks" id="git-tricks-link" class="nav-link"><li>Git Tricks</li></a>
-                <a href="#Check_Out_My_Other_Projects!" id="other-projects-link" class="nav-link"><li>Check Out My Other Projects!</li></a
-                >
-            </ul>
-        </div>
+      <button id="open-button"><i class="fas fa-bars"></i></button>
+      <div class="navbar-content-off" id="navbar-content">
+        <header>Developer Tricks</header>
+        <ul id="nav-links">
+          <a href="#Introduction" id="introduction-link" class="nav-link"
+            ><li>Introduction</li></a
+          >
+          <a href="#HTML_Tricks" id="html-tricks-link" class="nav-link"
+            ><li>HTML Tricks</li></a
+          >
+          <a href="#CSS_Tricks" id="css-tricks-link" class="nav-link"
+            ><li>CSS Tricks</li></a
+          >
+          <a
+            href="#JavaScript_Tricks"
+            id="javascript-tricks-link"
+            class="nav-link"
+            ><li>JavaScript Tricks</li></a
+          >
+          <a href="#Git_Tricks" id="git-tricks-link" class="nav-link"
+            ><li>Git Tricks</li></a
+          >
+          <a
+            href="#Check_Out_My_Other_Projects"
+            id="other-projects-link"
+            class="nav-link"
+            ><li>Check Out My Other Projects!</li></a
+          >
+        </ul>
+      </div>
     </nav>
     <main id="main-doc">
       <div id="main-container">
         <section class="main-section" id="Introduction">
           <header>Introduction</header>
           <div class="entry">
-            <code>var helloWorld = "Hello, World!";</code><br>
-            <code>console.log(helloWorld.concat(" ", "Welcome to Developer Tricks!"));</code>
+            <li>I want to say a welcome:</li>
+            <code>var helloWorld = "Hello, World!";</code><br />
+            <code
+              >console.log(helloWorld.concat(" ", "Welcome to Developer
+              Tricks!"));</code
+            >
           </div>
           <div class="entry">
-            <p>My name is Matt, and I created <strong>Developer Tricks</strong> to store and display all the bits about web development that I lookup and find useful. This information is pulled from resources like Stack Overflow, CSS Tricks, YouTube, Medium, etc. and I wanted a solution to store all of the information that I find into one central location. Here it is! Everything I find useful in Web Development (for now). Each and every entry is tested and used by me, and helped me solve some kind of problem I was stuck on. These can be simple, complex or hacky solutions, as long as they work how I want them to! Clearly, this is not an exhaustive list. Feel free to contact me on <a target="_blank"
-              href="https://twitter.com/mattsichterman?lang=en">Twitter</a> with any suggestions or additions that you can think of!</p>
+            <p>
+              My name is Matt, and I created
+              <strong>Developer Tricks</strong> to store and display all the
+              bits about web development that I find useful. This information is
+              pulled from resources like Stack Overflow, CSS Tricks, YouTube,
+              Medium, etc. and I wanted a solution to store all of the
+              information that I find into one central location. Here it is!
+              Everything I find useful in Web Development (for now). Each and
+              every entry is tested and used by me, and helped me solve some
+              kind of problem. These can be simple, complex or hacky solutions,
+              as long as they work how I want them to! I will continue to add to
+              this list as I come across new tricks in my future projects.
+              Clearly, this is not an exhaustive list. Feel free to contact me
+              on
+              <a
+                target="_blank"
+                href="https://twitter.com/mattsichterman?lang=en"
+                >Twitter</a
+              >
+              with any suggestions or additions that you can think of!
+            </p>
           </div>
         </section>
         <section class="main-section" id="HTML_Tricks">
@@ -54,36 +94,54 @@
           <p></p>
           <div class="entry">
             <li>I want to style the scrollbar:</li>
-            <code>/* Width */</code><br>
-            <code>::-webkit-scrollbar {</code><br>
-            <code class="indent">width: 1em;</code><br>
-            <code class="indent">background: black;</code><br>
-            <code>}</code><br><br>
+            <code>/* Width */</code><br />
+            <code>::-webkit-scrollbar {</code><br />
+            <code class="indent">width: 1em;</code><br />
+            <code class="indent">background: black;</code><br />
+            <code>}</code><br /><br />
 
-            <code>/* Track */</code><br>
-            <code>::-webkit-scrollbar-track {</code><br>
-            <code class="indent">border-radius: 10px;</code><br>
-            <code class="indent">background: #eee;</code><br>
-            <code>}</code><br><br>
+            <code>/* Track */</code><br />
+            <code>::-webkit-scrollbar-track {</code><br />
+            <code class="indent">border-radius: 10px;</code><br />
+            <code class="indent">background: #eee;</code><br />
+            <code>}</code><br /><br />
 
-            <code>/* Handle */</code><br>
-            <code>::-webkit-scrollbar-thumb {</code><br>
-            <code class="indent">background: black;</code><br>
-            <code class="indent">border-radius: 10px;</code><br>
-            <code class="indent">transition: background 3s ease-in-out;</code><br>
-            <code>}</code><br><br>
+            <code>/* Handle */</code><br />
+            <code>::-webkit-scrollbar-thumb {</code><br />
+            <code class="indent">background: black;</code><br />
+            <code class="indent">border-radius: 10px;</code><br />
+            <code class="indent">transition: background 3s ease-in-out;</code
+            ><br />
+            <code>}</code><br /><br />
 
-            <code>/* Handle on Hover */</code><br>
-            <code>::-webkit-scrollbar-thumb:hover {</code><br>
-            <code class="indent">background: red;</code><br>
+            <code>/* Handle on Hover */</code><br />
+            <code>::-webkit-scrollbar-thumb:hover {</code><br />
+            <code class="indent">background: red;</code><br />
             <code>}</code>
           </div>
         </section>
         <section class="main-section" id="JavaScript_Tricks">
           <header>JavaScript Tricks</header>
           <p></p>
-          <li></li>
-          <code></code>
+          <header class="subheader">jQuery</header>
+          <div class="entry">
+            <li>
+              I want to implement cross-browser compatible smooth scrolling:
+            </li>
+            <code>$(document).ready(function() {</code><br />
+            <code class="indent"
+              >$("#id").click(function(e) {</code
+            ><br />
+            <code class="indent2">e.preventDefault();</code><br />
+            <code class="indent2">var section = $(this).attr("href");</code
+            ><br />
+            <code class="indent2">$("html, body").animate({</code><br />
+            <code class="indent3">scrollTop: $(section).offset().top</code
+            ><br />
+            <code class="indent2">});</code><br />
+            <code class="indent">});</code><br />
+            <code>});</code>
+          </div>
         </section>
         <section class="main-section" id="Git_Tricks">
           <header>Git Tricks</header>
@@ -99,11 +157,20 @@
             <code>$ git commit --amend -m "message"</code>
           </div>
         </section>
-        <section class="main-section" id="Check_Out_My_Other_Projects!">
+        <section class="main-section" id="Check_Out_My_Other_Projects">
           <header>Check Out My Other Projects!</header>
           <div class="entry">
-            <p>I am currently interested in web design and develoment, and lots of new content is on the way! Below you will find some of my other projects. Follow me on <a target="_blank"
-              href="https://twitter.com/mattsichterman?lang=en">Twitter</a> and let me know what you think!</p>
+            <p>
+              I am currently interested in web design and development, and lots
+              of new content is on the way! Below you will find some of my other
+              projects. Follow me on
+              <a
+                target="_blank"
+                href="https://twitter.com/mattsichterman?lang=en"
+                >Twitter</a
+              >
+              and let me know what you think!
+            </p>
           </div>
           <div class="entry">
             <li class="top">
@@ -120,6 +187,7 @@
       </div>
 
       <footer>
+        <!--
         <div id="footer-links">
           <ul>
             <li><a href="#">Privacy</a></li>
@@ -127,34 +195,48 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
+        -->
         <ul>
           <li>
-            <a
-              target="_blank"
-              href="https://github.com/msichterman"
-              class="fab fa-github"
-            ></a>
+            <a target="_blank" href="https://github.com/msichterman">
+              <div class="footer-icon">
+                <i class="fab fa-github"></i>
+                <p class="link-title">GitHub</p>
+              </div>
+            </a>
           </li>
           <li>
             <a
               target="_blank"
               href="https://codepen.io/msichterman/"
-              class="fab fa-codepen"
-            ></a>
+            >
+              <div class="footer-icon">
+                <i class="fab fa-codepen"></i>
+                <p class="link-title">CodePen</p>
+              </div>
+            </a>
           </li>
           <li>
             <a
               target="_blank"
               href="https://twitter.com/mattsichterman?lang=en"
-              class="fab fa-twitter"
-            ></a>
+            >
+              <div class="footer-icon">
+                  <i class="fab fa-twitter"></i>
+                  <p class="link-title">Twitter</p>
+              </div>
+            </a>
           </li>
           <li>
             <a
               target="_blank"
               href="https://www.linkedin.com/in/msichterman/"
-              class="fab fa-linkedin"
-            ></a>
+            >
+              <div class="footer-icon">
+                <i class="fab fa-linkedin"></i>
+                <p class="link-title">LinkedIn</p>
+              </div>
+            </a>
           </li>
         </ul>
         <span>© 2019 SICHO Freelance</span>
@@ -162,6 +244,6 @@
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
-    <!---->script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">/script></--!>
+    <!--script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">/script>/-->
   </body>
 </html>
