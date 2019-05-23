@@ -49,6 +49,10 @@
     </nav>
     <main id="main-doc">
       <div id="main-container">
+        <div class="title-container">
+          <h1 class="title">Developer</h1>
+          <h1 class="title">Tricks</h1>
+        </div>
         <section class="main-section" id="Introduction">
           <header>Introduction</header>
           <div class="entry">
@@ -86,8 +90,16 @@
         <section class="main-section" id="HTML_Tricks">
           <header>HTML Tricks</header>
           <p></p>
-          <code></code>
-          <li></li>
+          <div class="entry">
+            <li>I want to add a custom favicon for my website:</li>
+            <code>&lt;link rel="icon" type="image/png" href="img/myImage.png"/></code>
+          </div>
+          <div class="entry">
+            <li>I want to use jQuery in my website:</li>
+            <code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">&lt;/script></code>
+          </div>
+          
+          
         </section>
         <section class="main-section" id="CSS_Tricks">
           <header>CSS Tricks</header>
@@ -119,11 +131,24 @@
             <code class="indent">background: red;</code><br />
             <code>}</code>
           </div>
+          <div class="entry">
+            <li>I want to add a stroke (outline) to text:</li>
+            <code>text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+                1px 1px 0 #000;</code>
+          </div>
+          <div class="entry">
+            <li>I want to make a media query to ensure website responsiveness:</li>
+            <code>@media (max-width: 600px) {</code><br>
+            <code class="indent">.class {</code><br>
+            <code class="indent2">...</code><br>
+            <code class="indent">}</code><br>
+            <code>}</code>
+          </div>
         </section>
         <section class="main-section" id="JavaScript_Tricks">
           <header>JavaScript Tricks</header>
           <p></p>
-          <header class="subheader">jQuery</header>
+          <header class="subheader">jQuery:</header>
           <div class="entry">
             <li>
               I want to implement cross-browser compatible smooth scrolling:
@@ -187,15 +212,6 @@
       </div>
 
       <footer>
-        <!--
-        <div id="footer-links">
-          <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        -->
         <ul>
           <li>
             <a target="_blank" href="https://github.com/msichterman">
