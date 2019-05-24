@@ -16,6 +16,7 @@ body {
   background-color: #000;
   font-family: "Source Sans Pro", sans-serif;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -186,6 +187,7 @@ p {
 
 .entry code {
   border: 2px solid #eee;
+  word-wrap: break-word;
   background-color: #eee;
 }
 
