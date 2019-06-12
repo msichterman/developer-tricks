@@ -156,6 +156,14 @@
         <section class="main-section" id="JavaScript_Tricks">
           <header>JavaScript Tricks</header>
           <p></p>
+          <div class="entry">
+            <li>I want to use regular expressions to confirm how a string ends:</li>
+            <code>function confirmEnding(str, target) {</code><br>
+            <code class="indent">// Uses template strings to insert the target variable</code><br>
+            <code class="indent">let regex = new RegExp(`${target}$`);</code><br>
+            <code class="indent">return regex.test(str);</code><br>
+            <code>}</code><br>
+          </div>
           <header class="subheader">jQuery:</header>
           <div class="entry">
             <li>
