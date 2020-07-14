@@ -4,7 +4,7 @@ A "technical documentation page" intended to store tricks I find useful in web d
 Check out the live site [here](https://msichterman.github.io/developer-tricks/)!
 
 ## Motivation
-I created this site as one of my responsive web design projects in the [freeCodeCamp](https://www.freecodecamp.org/) curriculum. I wanted to create something to not only satisfy the projects requirements, but also serve as a resource that I can continue to visit and add to when I come across helpful tricks.
+I created this site as one of my responsive web design projects in the [freeCodeCamp](https://www.freecodecamp.org/) curriculum. I wanted to create something to not only satisfy the projects requirements, but also serve as a resource that I can continue to visit and add to when I come across helpful tricks if desired.
 
 ## Technologies
 * HTML
